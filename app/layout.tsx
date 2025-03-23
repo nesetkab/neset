@@ -2,7 +2,8 @@ import "../global.css";
 import { Inter } from 'next/font/google';
 import localFont from 'next/font/local';
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   //metadataBase: new URL('process.env.VERCEL_URL'),
@@ -64,13 +65,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
-        <Analytics />
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
         {children}
+        <Analytics/>
       </body>
     </html>
   );

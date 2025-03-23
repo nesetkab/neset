@@ -13,6 +13,7 @@
     "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
     "@next/mdx": "^13.5.4",
     "@upstash/redis": "^1.23.3",
+    "@vercel/analytics": "^1.5.0",
     "contentlayer": "^0.3.4",
     "fortawesome": "0.0.1-security",
     "framer-motion": "^10.16.4",
