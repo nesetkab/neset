@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "nesetk.com",
     images: [
       {
-        url: "https://nesetk.com/og.png",
+        url: "https://nesetk.com/neset.png",
         width: 1920,
         height: 1080,
       },
