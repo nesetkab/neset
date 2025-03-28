@@ -9,18 +9,18 @@ export const metadata: Metadata = {
   //metadataBase: new URL('process.env.VERCEL_URL'),
   title: {
     default: "neset.com",
-    template: "%s | neset.com",
+    template: "%s | nesetk.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Team Captain of The Hive and High School Student",
   openGraph: {
-    title: "chronark.com",
+    title: "nesetk.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Team Captain of The Hive and High School Student",
+    url: "nesetk.com",
+    siteName: "nesetk.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://nesetk.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Neset",
     card: "summary_large_image",
   },
   icons: {
