@@ -5,7 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useMDXComponent } from "next-contentlayer/hooks";
 import type { HTMLAttributes, ImgHTMLAttributes } from "react";
-import type { MDXComponents } from "mdx/types";
+
+type MDXComponents = {
+  [key: string]: React.ComponentType<any>;
+};
 
 function clsx(...args: any[]) {
   return args.filter(Boolean).join(" ");
